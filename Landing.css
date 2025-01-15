@@ -1,0 +1,22 @@
+.Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+a {
+  margin-right: 10px;
+}
+
+section {
+  min-height: 100vh;
+  background-image: url(designer_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
