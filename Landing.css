@@ -12,6 +12,7 @@ section {
   min-height: 100vh;
   background-image: url(designer_1.png);
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
 }
 
@@ -19,4 +20,8 @@ section {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+body {
+  max-width: none;
 }
