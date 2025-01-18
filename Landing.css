@@ -10,6 +10,7 @@
 .hero-button {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .navigation {
@@ -50,7 +51,7 @@ img {
   text-align: center;
   height: 400px;
   width: 100%;
-  background-color: rgb(87, 87, 230);
+  background-color: rgb(242, 245, 255);
 }
 
 .second-to-last {
@@ -72,7 +73,54 @@ img {
   align-items: center;
 }
 
+.second-to-last, .last-section {
+  background-color: rgb(231, 236, 255);
+}
+
 .icons {
   width: 20px;
   height: 20px;
+}
+
+p {
+  font-family: Arial;
+  color: rgb(144, 157, 199);
+}
+
+a {
+  font-family: Arial;
+  color: rgb(144, 157, 199);
+}
+
+.first-button {
+  margin-right: 20px;
+  background-color: rgb(17, 27, 71);
+  height: 30px;
+  width: 150px;
+  color: white;
+  border: solid;
+}
+
+.second-button {
+  height: 26px;
+  width: 146px;
+  border: solid;
+  border-width: 2px;
+  border-color: rgb(17, 27, 71);
+}
+
+h1 {
+  color: rgb(32, 39, 70);
+}
+
+h2 {
+  color: rgb(32, 39, 70);
+}
+
+.section-3-button, .bb {
+  background-color: rgb(17, 27, 71);
+  height: 30px;
+  width: 150px;
+  color: white;
+  border: solid;
 }
