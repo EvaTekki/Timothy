@@ -39,6 +39,11 @@
   .section-3, .section-2 {
     flex-direction: column;
   }
+
+  .section-3-button {
+    margin: auto;
+    display: block;
+  }
 }
 
 img {
@@ -108,10 +113,22 @@ a {
 
 @media screen and (max-width:500px) {
   a {
-    font-size: 5px;
+    font-size: 20px;
   }
   .bbbb {
-    font-size: 15px;}
+    display: none;}
+}
+
+@media screen and (max-width:370px) {
+
+  .bbbbb {
+    display: none;
+  }
+
+  .icons {
+    display: none;
+  }
+  
 }
 
 .first-button {
@@ -139,7 +156,7 @@ h2 {
   color: rgb(32, 39, 70);
 }
 
-.section-3-button, .bb {
+.section-3-button, .bb, .bb1{
   background-color: rgb(17, 27, 71);
   height: 30px;
   width: 150px;
@@ -150,4 +167,13 @@ h2 {
 div {
   row-gap: 100px;
   
+}
+
+@media screen and (max-width: 500px) {
+  .display-1, .display-2 {
+    display: none;
+  }
+  .bb1 {
+    margin: auto;
+  }
 }
